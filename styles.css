@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color:rgb(250, 248, 249);
+    background-image: url("images.png");
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .heading {
+    position: absolute;
+    top: 20%;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+  
+  .container .input {
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+    width: 500px;
+    background-color: rgb(43, 202, 207);
+    border-radius: 80px;
+    box-shadow: 2px 14px 20px rgba(0, 0, 0, 0.6);
+  }
+  .container .input #input_date {
+    height: 40px;
+    border-radius: 15px;
+    width: 60%;
+    padding: 0px 14px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+  }
+  .container .input #input_date:hover{
+    border: 1px solid black;
+  }
+  
+  .container .input .submit {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .container .input .submit:hover{
+    border: 1px solid black;
+    /* background-color: tomato; */
+  }
+  
+  .container .result {
+    display: flex;
+    width: 500px;
+    padding: 0 2px;
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+  
+  .container .box {
+    color: rgb(20, 20, 20);
+    background: #fceaf6;
+    padding: 30px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 14px 20px rgba(0, 0, 0, 0.6);
+  }
+  .container .box span {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .container .box p {
+    margin-top: 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: black;
+  }
