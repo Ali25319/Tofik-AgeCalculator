@@ -6,8 +6,8 @@
   }
   
   body {
-    background-color:rgb(250, 248, 249);
-    background-image: url("images.png");
+    background-color:hsl(348, 83%, 47%);
+    
   }
   
   .container {
@@ -31,7 +31,7 @@
     justify-content:space-between;
     padding: 30px;
     width: 500px;
-    background-color: rgb(43, 202, 207);
+    background-color: hsl(300, 76%, 72%);
     border-radius: 80px;
     box-shadow: 2px 14px 20px rgba(0, 0, 0, 0.6);
   }
@@ -45,7 +45,7 @@
     cursor: pointer;
   }
   .container .input #input_date:hover{
-    border: 1px solid black;
+    border: 1px solid red;
   }
   
   .container .input .submit {
